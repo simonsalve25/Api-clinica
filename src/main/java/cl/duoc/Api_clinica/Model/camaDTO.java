@@ -12,4 +12,6 @@ import lombok.NoArgsConstructor;
 public class camaDTO {
         private String id;
         private int prioridad;
+        private String pabellon;
+        private Boolean disponible;
 }
