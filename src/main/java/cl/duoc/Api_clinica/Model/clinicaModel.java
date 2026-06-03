@@ -7,7 +7,7 @@ import lombok.Data;
 
 @Entity
 @Data
-//@Table(name="") falta ingresar nombre de la BBDD
+@Table(name="pacientes")
 
 public class clinicaModel {
     @Id
