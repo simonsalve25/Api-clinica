@@ -2,8 +2,8 @@ spring:
   aplication:
     name: Api-clinica
   datasource:
-    url:
-    password: Triageclinico2026
+    url: jdbc:oracle:thin:@//agregar medium
+    password: //agregar
     driver-class-name: oracle.jdbc.OracleDriver
     jpa:
       database-plataform: org.hibernate.dialect.OracleDialect

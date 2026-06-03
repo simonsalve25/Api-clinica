@@ -7,7 +7,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/triage")
+@RequestMapping("/api/clinica")
+
 public class clinicaController {
     @Autowired
     private clinicaService service;

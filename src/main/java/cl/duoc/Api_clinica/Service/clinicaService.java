@@ -14,6 +14,8 @@ public class clinicaService {
     @Autowired
     private RestTemplate restTemplate;
 
+    private final String SCOOTER_API_URL = "http://localhost:25001/api/v1/clinica/";
+
     public Paciente registrar(Paciente paciente){
         try {
             boolean disponible =
